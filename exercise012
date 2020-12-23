@@ -1,0 +1,11 @@
+fun main() {
+	var a = 5
+    var mod = a % 2
+     
+    if (mod == 0) {
+        println ("O número $a, é par.")     
+    }
+    else {
+        println ("O número $a, é impar.")
+    }
+ }
