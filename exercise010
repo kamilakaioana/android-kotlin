@@ -1,0 +1,22 @@
+fun main() {
+   println(soma(8,2))
+   println(mult(8,2))
+   println(subt(8,2))
+   println(div(8,2))
+   }
+    fun soma (a : Int, b : Int) : Int {
+    val s = a + b
+    return s
+    }
+    fun mult (a : Int, b : Int) : Int {
+    val s = a * b
+    return s
+    }
+    fun subt (a : Int, b : Int) : Int {
+    val s = a - b
+    return s
+    }
+    fun div (a : Int, b : Int) : Int {
+    val s = a / b
+    return s
+    }
