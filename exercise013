@@ -1,0 +1,17 @@
+fun main() {
+	var senha = "mi123"
+    var usuario = "Milla"
+       
+   if (usuario == "Milla") {
+       
+        if (senha == "mi123") {
+        println ("Seja bem vinda, $usuario")     
+    }
+    else {
+        println ("Senha incorreta")
+    }
+   }
+    else {
+        println ("Usuario inexistente")
+    }   
+ }
