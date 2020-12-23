@@ -1,5 +1,5 @@
 fun main() {
-   	var num = 8 
-    var quadrado = num * num
-    println(quadrado)
+  var num: Double= 8.0
+    var quadradok = Math.pow(num, 2.0)
+    println(quadradok)
 }
