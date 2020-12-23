@@ -1,0 +1,11 @@
+
+fun main() {
+   var nota1:Double = 8.4 
+    var nota2:Double = 7.3
+    var nota3:Double = 7.6 
+    var nota4:Double = 10.0 
+    var nota5:Double = 9.2 
+    var soma = nota1 + nota2 + nota3 + nota4 + nota5
+    var media: Double= soma / 5
+    println(media)
+}
