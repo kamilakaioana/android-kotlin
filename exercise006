@@ -1,0 +1,5 @@
+fun main() {
+   	var mes = 7 
+    var dias = mes * 30
+    println("$mes meses têm $dias dias.")
+}
