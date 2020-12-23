@@ -1,0 +1,23 @@
+fun main() {
+	var peso: Double = 60.0
+    var altura: Double = 1.70
+ 	val resultado:Double = imc(peso, altura)
+	
+	
+    println ("o resultado é $resultado!")
+	if (resultado < 18.5) {
+        println("Classificação MAGREZA")
+    } else if (resultado < 25) {
+        println("Classificação NORMAL")
+    } else  if (resultado < 30) {
+        println("Classificação SOBREPESO")
+    } else if (resultado < 40) {
+        println("Classificação OBESIDADE")
+    } else {
+        println("Classificação OBESIDADE GRAVE")  
+	}
+}
+ fun imc (peso: Double, altura: Double) : Double {
+     val s = peso / (altura * altura)
+     return s
+ }  
