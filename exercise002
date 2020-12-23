@@ -1,0 +1,6 @@
+fun main() {
+   var nota1:Double = 7.4
+    var nota2:Double = 8.5
+    var soma:Double = nota1 + nota2
+    println(soma)
+}
