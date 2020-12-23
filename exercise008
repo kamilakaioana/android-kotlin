@@ -1,0 +1,5 @@
+fun main() {
+   	var met = 3
+    var cent = met * 100
+    println("$met metros têm $cent centímetros.")
+}
