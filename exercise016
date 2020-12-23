@@ -1,0 +1,12 @@
+fun main() {
+	var texto : String = "Kamila"
+   	var contador: Int = 0
+ 	
+           for(n in texto.toUpperCase()){ 
+         
+      	if(n === 'A' || n === 'E' || n === 'I' || n === 'O' || n === 'U' ){
+          contador++  
+        }    
+     } 
+      println("A palavra $texto tem $contador vogais")
+ }
