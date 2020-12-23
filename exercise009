@@ -1,0 +1,7 @@
+fun main() {
+   	var valor:Double = 200.0
+    var desc = 20
+    var porc = valor * desc / 100
+    var total = valor - porc
+    println(total)
+}
